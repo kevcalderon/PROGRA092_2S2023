@@ -1,0 +1,17 @@
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\bin\Debug\net6.0-windows\clase2.exe
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\bin\Debug\net6.0-windows\clase2.deps.json
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\bin\Debug\net6.0-windows\clase2.runtimeconfig.json
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\bin\Debug\net6.0-windows\clase2.dll
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\bin\Debug\net6.0-windows\clase2.pdb
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\obj\Debug\net6.0-windows\clase2.vbproj.AssemblyReference.cache
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\obj\Debug\net6.0-windows\clase2.Form1.resources
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\obj\Debug\net6.0-windows\clase2.vbproj.GenerateResource.cache
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\obj\Debug\net6.0-windows\clase2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\obj\Debug\net6.0-windows\clase2.AssemblyInfoInputs.cache
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\obj\Debug\net6.0-windows\clase2.AssemblyInfo.vb
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\obj\Debug\net6.0-windows\clase2.vbproj.CoreCompileInputs.cache
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\obj\Debug\net6.0-windows\clase2.dll
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\obj\Debug\net6.0-windows\refint\clase2.dll
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\obj\Debug\net6.0-windows\clase2.pdb
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\obj\Debug\net6.0-windows\clase2.genruntimeconfig.cache
+C:\Users\josue\Desktop\PROGRA092\PROGRA092_2S2023\clase2\obj\Debug\net6.0-windows\ref\clase2.dll
