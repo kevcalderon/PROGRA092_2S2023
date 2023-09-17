@@ -1,0 +1,19 @@
+CREATE TABLE Artista (
+    ID_Artista INT NOT NULL AUTO_INCREMENT,
+    Nombre VARCHAR(50) NOT NULL,
+    Nacionalidad VARCHAR(50) NOT NULL,
+    Anio_Inicio INT NOT NULL,
+    PRIMARY KEY (ID_Artista)
+);
+
+CREATE TABLE Cancion (
+    ID_Cancion INT NOT NULL AUTO_INCREMENT,
+    ID_Artista INT NOT NULL,
+    Titulo VARCHAR(100) NOT NULL,
+    Album VARCHAR(100),
+    Fecha_Lanzamiento DATE NOT NULL,
+    Genero VARCHAR(50) NOT NULL,
+    Ubicacion VARCHAR(100) NOT NULL,
+    PRIMARY KEY (ID_Cancion),
+    FOREIGN KEY (ID_Artista) REFERENCES Artista (ID_Artista)
+);
