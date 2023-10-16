@@ -10,16 +10,6 @@ Public Class Login
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        connection = New MySqlConnection
-        connection.ConnectionString = "server=localhost;userId=root;password='';database=progra092"
-        Try
-            connection.Open()
-            MsgBox("Conexion correctamente a BD!!!! :)")
-            connection.Close()
-        Catch ex As Exception
-            MsgBox("Error al conectarme, no funciono :C")
-            connection.Close()
-        End Try
-
+        conexionBD()
     End Sub
 End Class

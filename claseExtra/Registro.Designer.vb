@@ -24,6 +24,13 @@ Partial Class Registro
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.buttonBackRegistro = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.textNombre = New System.Windows.Forms.TextBox()
+        Me.textUsuario = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.textContra = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -38,23 +45,87 @@ Partial Class Registro
         '
         'buttonBackRegistro
         '
-        Me.buttonBackRegistro.Location = New System.Drawing.Point(252, 257)
+        Me.buttonBackRegistro.Location = New System.Drawing.Point(270, 449)
         Me.buttonBackRegistro.Name = "buttonBackRegistro"
         Me.buttonBackRegistro.Size = New System.Drawing.Size(213, 62)
         Me.buttonBackRegistro.TabIndex = 1
         Me.buttonBackRegistro.Text = "Regresar a Login"
         Me.buttonBackRegistro.UseVisualStyleBackColor = True
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(185, 158)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(64, 20)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "Nombre"
+        '
+        'textNombre
+        '
+        Me.textNombre.Location = New System.Drawing.Point(289, 155)
+        Me.textNombre.Name = "textNombre"
+        Me.textNombre.Size = New System.Drawing.Size(248, 27)
+        Me.textNombre.TabIndex = 3
+        '
+        'textUsuario
+        '
+        Me.textUsuario.Location = New System.Drawing.Point(289, 214)
+        Me.textUsuario.Name = "textUsuario"
+        Me.textUsuario.Size = New System.Drawing.Size(248, 27)
+        Me.textUsuario.TabIndex = 5
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(190, 217)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(59, 20)
+        Me.Label3.TabIndex = 4
+        Me.Label3.Text = "Usuario"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(166, 272)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(83, 20)
+        Me.Label4.TabIndex = 6
+        Me.Label4.Text = "Contraseña"
+        '
+        'textContra
+        '
+        Me.textContra.Location = New System.Drawing.Point(289, 272)
+        Me.textContra.Name = "textContra"
+        Me.textContra.Size = New System.Drawing.Size(248, 27)
+        Me.textContra.TabIndex = 7
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(270, 367)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(213, 54)
+        Me.Button1.TabIndex = 8
+        Me.Button1.Text = "Registrar"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Registro
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(803, 549)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.textContra)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.textUsuario)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.textNombre)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.buttonBackRegistro)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Registro"
-        Me.Text = "Registro"
+        Me.Text = "-"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -62,4 +133,11 @@ Partial Class Registro
 
     Friend WithEvents Label1 As Label
     Friend WithEvents buttonBackRegistro As Button
+    Friend WithEvents Label2 As Label
+    Friend WithEvents textNombre As TextBox
+    Friend WithEvents textUsuario As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents textContra As TextBox
+    Friend WithEvents Button1 As Button
 End Class
